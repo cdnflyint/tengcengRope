@@ -27,13 +27,15 @@ deb-src http://mirrors.tencent.com/debian/ bullseye-backports main non-free cont
 ```
 
 ### ubuntu20.* TLS
+```
 deb http://mirrors.tencent.com/ubuntu/ focal main restricted universe multiverse
 deb-src http://mirrors.tencent.com/ubuntu/ focal main restricted universe multiverse
 deb http://mirrors.tencent.com/ubuntu/ focal-security main restricted universe multiverse
 deb-src http://mirrors.tencent.com/ubuntu/ focal-security main restricted universe multiverse
 deb http://mirrors.tencent.com/ubuntu/ focal-updates main restricted universe multiverse
 deb-src http://mirrors.tencent.com/ubuntu/ focal-updates main restricted universe multiverse
-# deb http://mirrors.tencent.com/ubuntu/ focal-proposed main restricted universe multiverse
-# deb-src http://mirrors.tencent.com/ubuntu/ focal-proposed main restricted universe multiverse
+#deb http://mirrors.tencent.com/ubuntu/ focal-proposed main restricted universe multiverse
+#deb-src http://mirrors.tencent.com/ubuntu/ focal-proposed main restricted universe multiverse
 deb http://mirrors.tencent.com/ubuntu/ focal-backports main restricted universe multiverse
 deb-src http://mirrors.tencent.com/ubuntu/ focal-backports main restricted universe multiverse
+```
