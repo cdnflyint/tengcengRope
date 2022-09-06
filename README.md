@@ -32,7 +32,7 @@ deb http://mirrors.tencent.com/debian/ bullseye-backports main non-free contrib
 deb-src http://mirrors.tencent.com/debian/ bullseye-backports main non-free contrib
 ```
 
-### ubuntu20.* TLS
+### ubuntu20.* LTS
 ```
 deb http://mirrors.tencent.com/ubuntu/ focal main restricted universe multiverse
 deb-src http://mirrors.tencent.com/ubuntu/ focal main restricted universe multiverse
