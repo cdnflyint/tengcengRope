@@ -1,5 +1,11 @@
 ```/etc/apt/sources.list```
 
+### 海外源(香港中文大学)
+```
+# 把域名替换掉就行了
+https://mirror.xtom.com.hk
+```
+
 ### debian 10
 ```
 deb http://mirrors.tencent.com/debian/ buster main non-free contrib
