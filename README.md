@@ -1,6 +1,6 @@
 ```/etc/apt/sources.list```
 
-### 海外源(香港中文大学)
+### 海外源(香港科技大学)
 ```
 # 把域名替换掉就行了
 https://mirror.xtom.com.hk
