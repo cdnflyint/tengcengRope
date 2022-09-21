@@ -2,7 +2,7 @@
 
 ### 海外源(香港科技大学)
 ```
-# 把域名替换掉就行了
+# 把域名替换掉
 https://mirror.xtom.com.hk
 ```
 
@@ -17,8 +17,6 @@ deb-src http://mirrors.tencent.com/debian/ buster-updates main non-free contrib
 deb http://mirrors.tencent.com/debian/ buster-backports main non-free contrib
 deb-src http://mirrors.tencent.com/debian/ buster-backports main non-free contrib
 ```
-
-
 
 ### debian 11
 ```
