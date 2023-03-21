@@ -10,14 +10,14 @@ http://mirrors.tencent.com
 ### debian 10
 ```
 echo ''>/etc/apt/sources.list
-deb https://mirror.xtom.com.hk/debian/ buster main non-free contrib
-deb-src https://mirror.xtom.com.hk/debian/ buster main non-free contrib
-deb https://mirror.xtom.com.hk/debian-security buster/updates main
-deb-src https://mirror.xtom.com.hk/debian-security buster/updates main
-deb https://mirror.xtom.com.hk/debian/ buster-updates main non-free contrib
-deb-src https://mirror.xtom.com.hk/debian/ buster-updates main non-free contrib
-deb https://mirror.xtom.com.hk/debian/ buster-backports main non-free contrib
-deb-src https://mirror.xtom.com.hk/debian/ buster-backports main non-free contrib
+echo "deb https://mirror.xtom.com.hk/debian/ buster main non-free contrib" >>/etc/apt/sources.list
+echo "deb-src https://mirror.xtom.com.hk/debian/ buster main non-free contrib" >>/etc/apt/sources.list
+echo "deb https://mirror.xtom.com.hk/debian-security buster/updates main" >>/etc/apt/sources.list
+echo "deb-src https://mirror.xtom.com.hk/debian-security buster/updates main" >>/etc/apt/sources.list
+echo "deb https://mirror.xtom.com.hk/debian/ buster-updates main non-free contrib" >>/etc/apt/sources.list
+echo "deb-src https://mirror.xtom.com.hk/debian/ buster-updates main non-free contrib" >>/etc/apt/sources.list
+echo "deb https://mirror.xtom.com.hk/debian/ buster-backports main non-free contrib" >>/etc/apt/sources.list
+echo "deb-src https://mirror.xtom.com.hk/debian/ buster-backports main non-free contrib" >>/etc/apt/sources.list
 ```
 
 ### debian 11
