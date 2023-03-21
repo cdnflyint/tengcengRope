@@ -18,6 +18,8 @@ echo "deb https://mirror.xtom.com.hk/debian/ buster-updates main non-free contri
 echo "deb-src https://mirror.xtom.com.hk/debian/ buster-updates main non-free contrib" >>/etc/apt/sources.list
 echo "deb https://mirror.xtom.com.hk/debian/ buster-backports main non-free contrib" >>/etc/apt/sources.list
 echo "deb-src https://mirror.xtom.com.hk/debian/ buster-backports main non-free contrib" >>/etc/apt/sources.list
+apt update -y 
+apt install curl -y 
 ```
 
 ### debian 11
@@ -31,6 +33,8 @@ echo "deb https://mirror.xtom.com.hk/debian/ bullseye-updates main non-free cont
 echo "deb-src https://mirror.xtom.com.hk/debian/ bullseye-updates main non-free contrib" >>/etc/apt/sources.list
 echo "deb https://mirror.xtom.com.hk/debian/ bullseye-backports main non-free contrib" >>/etc/apt/sources.list
 echo "deb-src https://mirror.xtom.com.hk/debian/ bullseye-backports main non-free contrib" >>/etc/apt/sources.list
+apt update -y 
+apt install curl -y 
 ```
 
 ### ubuntu20.* LTS
