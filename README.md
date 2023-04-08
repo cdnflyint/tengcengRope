@@ -47,14 +47,14 @@ apt install curl -y
 
 ### ubuntu20.* LTS
 ```
-deb http://mirrors.tencent.com/ubuntu/ focal main restricted universe multiverse
-deb-src http://mirrors.tencent.com/ubuntu/ focal main restricted universe multiverse
-deb http://mirrors.tencent.com/ubuntu/ focal-security main restricted universe multiverse
-deb-src http://mirrors.tencent.com/ubuntu/ focal-security main restricted universe multiverse
-deb http://mirrors.tencent.com/ubuntu/ focal-updates main restricted universe multiverse
-deb-src http://mirrors.tencent.com/ubuntu/ focal-updates main restricted universe multiverse
-#deb http://mirrors.tencent.com/ubuntu/ focal-proposed main restricted universe multiverse
-#deb-src http://mirrors.tencent.com/ubuntu/ focal-proposed main restricted universe multiverse
-deb http://mirrors.tencent.com/ubuntu/ focal-backports main restricted universe multiverse
-deb-src http://mirrors.tencent.com/ubuntu/ focal-backports main restricted universe multiverse
+deb https://mirror.xtom.com.hk focal main restricted universe multiverse
+deb-src https://mirror.xtom.com.hk focal main restricted universe multiverse
+deb https://mirror.xtom.com.hk focal-security main restricted universe multiverse
+deb-src https://mirror.xtom.com.hk focal-security main restricted universe multiverse
+deb https://mirror.xtom.com.hk focal-updates main restricted universe multiverse
+deb-src https://mirror.xtom.com.hk focal-updates main restricted universe multiverse
+#deb https://mirror.xtom.com.hk focal-proposed main restricted universe multiverse
+#deb-src https://mirror.xtom.com.hk focal-proposed main restricted universe multiverse
+deb https://mirror.xtom.com.hk focal-backports main restricted universe multiverse
+deb-src https://mirror.xtom.com.hk focal-backports main restricted universe multiverse
 ```
